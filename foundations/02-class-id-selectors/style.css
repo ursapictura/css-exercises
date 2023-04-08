@@ -1,0 +1,21 @@
+/* styles.css */
+
+.red-background {
+    background-color:rgb(255, 170, 170);
+    font-family:"Verdana", "DejaVu Sands", sans-serif;
+}
+
+#big-blue {
+    color: rgb(12, 6, 194);
+    font-size: 36px;
+}
+
+.cooler {
+    font-size: 24px;
+}
+
+#neon-bold {
+    background-color: rgb(144, 238, 144);
+    font-size: 24px;
+    font-weight: bold;
+}
