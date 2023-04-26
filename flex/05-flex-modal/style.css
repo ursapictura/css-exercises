@@ -11,6 +11,7 @@ body {
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
 }
@@ -18,8 +19,29 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+.header {
+  font-size: 20px;
+  font-weight: 700;
 }
 
 .icon {
@@ -33,6 +55,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-shrink: 0;
 }
 
 .close-button {
@@ -51,6 +74,7 @@ body {
 button {
   padding: 8px 16px;
   border-radius: 8px;
+  width: 100px;
 }
 
 button.continue {
@@ -63,4 +87,10 @@ button.cancel {
   background: white;
   border: 1px solid #ddd;
   color: royalblue;
+}
+
+.buttons {
+  top-margin: 10px;
+  display: flex;
+  gap: 8px;
 }
